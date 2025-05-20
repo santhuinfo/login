@@ -18,6 +18,47 @@
         left: 50%;
         top: 50%;
         transform: translate(-50%,-50%);
+        
+        
+        .label{
+            margin-top:80px;
+            display:inline-block;
+            color:white;
+            font-style: bold;
+            margin-left:10px;
+            .usertxt{
+              margin-bottom:20px;
+              width:250px;
+            }
+            .pastxt{
+                width:250px;
+                
+            }
+            button{
+                width:100px;
+                background-color: white;
+                margin-top:45px;
+                margin-left:80px;
+            }
+            
+        }
+        
+        .endo{
+             @include width-height(300px,50px );
+        background-color:black;
+        position:absolute; 
+        display:inline-block;
+        margin-top:0px;
+        z-index: 1;
+        h2{
+             color: white;
+        font-style: bold;
+        margin-top:10px;
+        margin-left:100px;
+        
+        }
+    }
+        
     }
     
 }

@@ -17,4 +17,39 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.ecto .meso .label {
+  margin-top: 80px;
+  display: inline-block;
+  color: white;
+  font-style: bold;
+  margin-left: 10px;
+}
+.ecto .meso .label .usertxt {
+  margin-bottom: 20px;
+  width: 250px;
+}
+.ecto .meso .label .pastxt {
+  width: 250px;
+}
+.ecto .meso .label button {
+  width: 100px;
+  background-color: white;
+  margin-top: 45px;
+  margin-left: 80px;
+}
+.ecto .meso .endo {
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  display: inline-block;
+  margin-top: 0px;
+  z-index: 1;
+}
+.ecto .meso .endo h2 {
+  color: white;
+  font-style: bold;
+  margin-top: 10px;
+  margin-left: 100px;
 }/*# sourceMappingURL=login.css.map */
